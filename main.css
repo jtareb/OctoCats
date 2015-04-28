@@ -1,0 +1,82 @@
+
+.octocat {
+	float: left;
+	margin: 10px;
+}
+
+.octocat img{
+	width: 280px;
+	
+	border: 1px solid lightgrey;
+	display: block;
+}
+
+.image-footer {
+	position: relative;
+	overflow: auto;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid lightgrey;
+
+}
+
+.image-footer:before {
+	content:"";
+	width: 0;
+	height: 0;
+	border-style:solid;
+	border-width: 5px 5px 0px 5px;
+	border-color: lightgrey transparent transparent transparent;
+	position: absolute;
+	top: 0px;
+	right: 6px;
+}
+
+.image-number {
+	float:left;
+	color: lightgrey;
+	font-size: 11px;
+	line-height: 20px;
+
+}
+
+.image-number:before {
+	content: "#";
+}
+
+.image-caption {
+	float:right;
+	font-size:11px;
+	font-weight: 600;
+	line-height: 20px;
+
+}
+
+.authors {
+	float:right;
+}
+
+.authors img{
+	float: right;
+	width: 20px;
+	margin-left: 3px;
+	border:none;
+}
+
+.image-caption a {
+
+	text-decoration: none;
+	color:black;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding:0px;
+}
+
+
+
+
